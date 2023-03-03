@@ -20,12 +20,10 @@ Number2 = float(input("Enter number 2: "))
 answer = arithmetic(operationInput, Number1, Number2)
 print(answer)
 
-
 useLastAnswer = input("Do you want to reuse the last input in a new operation? (Y - Yes, N - No): ")
 
-if useLastAnswer == "Y":
-    lastAnswer = Number1
-    Number1 = lastAnswer
+while useLastAnswer == "Y":
+    Number1 = answer
     operationInput = input("Enter an operation (M - Multiplication, D - Division, A - Add, S - Subtract): ")
     Number2 = float(input("Enter number 2: "))
     answer = arithmetic(operationInput, Number1, Number2)
