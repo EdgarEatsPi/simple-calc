@@ -12,5 +12,14 @@ Enter number 1: 10
 Enter an operation (M - Multiplication, D - Division, A - Add, S - Subtract): D
 Enter number 2: 3
 3.3333333333333335
+Do you want to reuse the last input in a new operation? (Y - Yes, N - No): Y
+Enter an operation (M - Multiplication, D - Division, A - Add, S - Subtract): M 
+Enter number 2: 6
+20.0
+Do you want to reuse the last input in a new operation? (Y - Yes, N - No): Y
+Enter an operation (M - Multiplication, D - Division, A - Add, S - Subtract): D 
+Enter number 2: 4
+5.0
 Do you want to reuse the last input in a new operation? (Y - Yes, N - No): N
 ```
+All you need is python3 and access to any terminal to run this.
