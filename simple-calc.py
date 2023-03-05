@@ -10,7 +10,7 @@ def guess_root(n, b): #(guess_root)^n ~= b
 
 def nth_root(n, b, k):
   if k == 1:
-    return guess_root(n, b):
+    return guess_root(n, b)
   return (1 / n) * ((n - 1) * nth_root(k-1) + b / nth_root(k-1) ^ (n - 1))
 
 def math(operation, number1, number2, i=3):
